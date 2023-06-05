@@ -103,6 +103,9 @@
 #elif defined(__hppa__)
 #  define ARCH_CPU_HPPA 1
 #  define ARCH_CPU_32_BITS 1
+#elif defined(__loongarch64)
+#  define ARCH_CPU_LOONGARCH 1
+#  define ARCH_CPU_64_BITS 1
 #elif defined(__ia64__)
 #  define ARCH_CPU_IA64 1
 #  define ARCH_CPU_64_BITS 1
